@@ -1,0 +1,5 @@
+<% if(typeof errors != 'undefined') {%>
+    <% errors.ForEach(function(error)) {%>
+        <%= error.msg %>
+            <% }); %>
+                <% } %>
